@@ -17,14 +17,14 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-      background-attachment: fixed; /* 스크롤해도 고정 */
+      background-attachment: fixed;
       color: #fff;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       min-height: 100vh;
-      height: 100vh; /* 추가해주면 확실 */
+      height: 100vh; 
     }
 
     .container {
@@ -34,8 +34,8 @@
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
       width: 350px;
       text-align: center;
-      background-color: rgba(42, 42, 42, 0.7); /* 반투명 */
-      backdrop-filter: blur(6px); /* 흐림 효과 */
+      background-color: rgba(42, 42, 42, 0.7); 
+      backdrop-filter: blur(6px); 
     }
     h1 {
       font-size: 2rem;
